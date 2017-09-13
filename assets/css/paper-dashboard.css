@@ -219,17 +219,18 @@ hr {
   background-position: center center; }
   .sidebar .sidebar-wrapper {
     position: relative;
-    max-height: none;
+    max-height: 100% ;
     min-height: 100%;
     overflow: hidden;
-    width: 260px;
+    max-width: 300px;
     z-index: 4;
     box-shadow: inset -1px 0px 0px 0px #DDDDDD; }
   .sidebar .sidebar-background {
     position: absolute;
     z-index: 1;
-    height: 100%;
-    width: 100%;
+    max-height: none ;
+    min-height: 130%;
+    min-width: 100%;
     display: block;
     top: 0;
     left: 0;
@@ -240,7 +241,7 @@ hr {
 .off-canvas-sidebar {
   width: 260px;
   display: block;
-  font-weight: 200; }
+  font-weight: 100; }
   .sidebar .logo,
   .off-canvas-sidebar .logo {
     padding: 18px 0px;
@@ -407,7 +408,7 @@ hr {
 .sidebar,
 .main-panel {
   overflow: auto;
-  
+
   -webkit-transition-property: top,bottom;
   transition-property: top,bottom;
   -webkit-transition-duration: .2s,.2s;
@@ -2368,7 +2369,7 @@ textarea.form-control {
       position: relative;
       z-index: 3;
       overflow-y: scroll;
-      height: 100%;
+      min-height:100% ;
       box-shadow: inset 1px 0px 0px 0px #DDDDDD; }
     .off-canvas-sidebar .nav {
       margin-top: 80;
