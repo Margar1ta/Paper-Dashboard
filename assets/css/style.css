@@ -1,0 +1,100 @@
+h4{
+  font-size: 16px;
+}
+.main-panel{
+  height: auto;
+  max-height: none !important;
+
+}
+navbar {
+    margin-bottom: 0px;
+}
+.navbar_img{
+  width: 100%;
+  padding: 5px;
+}
+
+.navbar-default {
+    background-color: #8ef3c5;
+}
+.my_form{
+  padding-top: 1em;
+  height: inherit;
+
+}
+.my_header_form{
+  padding-top: 1em;
+  height: inherit;
+}
+.my_text{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar .navbar-nav > li > a.btn-info, .btn-info {
+  border-color: white;
+  color: white; }
+  .btn-wd {
+    min-width: 100px; }
+
+.my_icon{
+  color: white;
+  font-size: 20px;
+  padding-top: 0px !important;
+}
+
+.nav-list-elem{
+  padding:0;
+  padding-left: 2em;
+  list-style-type:none;
+
+}
+.nav-list-elem > a{
+  padding:0 !important;
+}
+
+.main-panel {
+  width:100%;
+  min-height: 100%; }
+
+  .my_main{
+    float: right;
+    width: calc(100% - 260px);
+  }
+
+  .right{
+    float: right;
+  }
+  .btn-center{
+    margin: 0 25% auto !important;
+  }
+  .td_bg{
+    width: 60%;
+  }
+  .centering {
+    float:none;
+    margin:0 auto;
+  }
+  .my_table{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+  .table{
+    border-collapse: initial;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+.main-panel > .content {
+  padding: 15px 5px;
+}
+.card{
+  margin: 5px;
+  padding: 10px;
+}
+
+.btn-green{
+  margin: 2px;
+  padding :5px;
+  border-color: #8ef3c5;
+   color: #8ef3c5;
+}
