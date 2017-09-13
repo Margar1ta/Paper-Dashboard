@@ -6,8 +6,11 @@ h4{
   max-height: none !important;
 
 }
-navbar {
+.navbar {
     margin-bottom: 0px;
+}
+.center{
+  text-align: center;
 }
 .navbar_img{
   width: 100%;
@@ -35,7 +38,9 @@ navbar {
   border-color: white;
   color: white; }
   .btn-wd {
-    min-width: 100px; }
+    min-width: 50px;
+margin-top: 10px;
+  }
 
 .my_icon{
   color: white;
@@ -87,6 +92,19 @@ height: auto;}
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
   }
+  .my_select {
+    background-color: #fffcf5;
+    border-radius: 4px;
+    color: #66615b;
+    font-size: 14px;
+    transition: background-color 0.3s ease 0s;
+    padding: 0px 8px;
+    height: 30px;
+    box-shadow: none;
+  }
+  .my_select_text{
+    height: 30px;
+  }
   .table{
     border-collapse: initial;
     font-size: 14px;
@@ -101,7 +119,7 @@ height: auto;}
 }
 
 .btn-green{
-  margin: 2px;
+  margin: 10px 0px;
   padding :5px;
   border-color: #8ef3c5;
    color: #8ef3c5;
